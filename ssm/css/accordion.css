@@ -1,0 +1,39 @@
+/*accordion*/
+.panel-title {
+	height: 56px;
+	line-height: 56px;
+	background: #103740;
+	border:0;
+	outline: 0;
+	color:#fff;
+	text-indent: 76px;
+    letter-spacing: 2px;
+}
+
+.accordion {
+	background: #0F272D;
+    border-color: #103740;
+}
+
+.accordion .accordion-header {
+    background: #103740;
+}
+
+.panel-header, .panel-body {
+	padding: 0;
+    border-color: #103740;
+}
+
+.accordion .accordion-header-selected .panel-title {
+    color: #fff;
+    border-left:3px solid #58FBFF;
+    margin-top: 1px;
+}
+/*Icon*/
+.icon-setting {
+	width: 20px;
+    height: 20px;
+    position: absolute;
+    line-height: 65px;
+    left: 22%;
+}

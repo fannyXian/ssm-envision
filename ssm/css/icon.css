@@ -1,0 +1,38 @@
+/*Left Icon*/
+.icon-set {
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin-top: 80%;
+	overflow: hidden;
+}
+.icon-home {
+	 background: url(../images/icons/left.png) -0px -60px no-repeat; 
+}
+.icon-task {
+	 background: url(../images/icons/left.png) -0px -120px no-repeat;
+}
+.icon-news {
+	 background: url(../images/icons/left.png) -0px -20px no-repeat;
+}
+.icon-activity {
+	 background: url(../images/icons/left.png) -0px -40px no-repeat;
+}
+.icon-staff {
+	 background: url(../images/icons/left.png) -0px -158px no-repeat;
+}
+.icon-system {
+	 background: url(../images/icons/left.png) -0px -80px no-repeat;
+}
+.icon-performance {
+	 background: url(../images/icons/left.png) -0px -139px no-repeat;
+}
+.icon-VDR {
+	 background: url(../images/icons/left.png) -0px -100px no-repeat;
+}
+.icon-HSSE {
+	 background: url(../images/icons/left.png) -0px -0px no-repeat;
+}
+
+
+

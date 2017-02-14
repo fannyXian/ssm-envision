@@ -1,0 +1,173 @@
+/*登录界面样式*/
+/*基础样式*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+body {
+	margin: 0;
+    padding: 0;
+    font: 12px/1.5 Microsoft YaHei;
+    color: #666;
+    background:url(../images/background.svg);   
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+input::-webkit-input-placeholder { 
+    color: #fff;
+    opacity:1;
+}
+
+ul li {
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+/*复选框样式*/
+.checkbox-style { 
+    display: none; 
+} 
+ 
+.checkbox-style + label { 
+    background-color: #008CA6; 
+    border: 1px solid #16DBE0; 
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05); 
+    padding: 0 7px 0 7px;
+    border-radius: 0px; 
+    position: relative; 
+    height: 12px;
+    border-radius: 2px;
+} 
+.checkbox-style + label:active { 
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1); 
+} 
+ 
+.checkbox-style:checked + label { 
+    background-color: #008CA6; 
+    border: 1px solid #16DBE0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1); 
+    color: #fff; 
+    padding: 0 2px 0 2px;
+    border-radius: 2px;
+} 
+ 
+.checkbox-style:checked + label:after { 
+    content: '\2714'; //勾选符号 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    color: #fff; 
+    width: 100%; 
+    text-align: center; 
+    font-size: 1em; 
+    
+} 
+
+/*登录框*/
+.login-wrap {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    width:100%;
+    height: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+    width:718px;
+    height: 414px;
+    width:718px;
+    min-height: 414px;
+}
+
+.logo {
+    background: url(../images/logo.png);
+    background-size: 100%;
+    width: 116.4px;
+    height: 33.6px;
+    display: block;
+    margin: 0 auto;
+}
+
+.login-title {
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 10px;
+}
+
+.input-wrap {
+    height: 50px;
+    line-height: 60px;   
+    margin-top: 3%;
+}
+
+.input-wrap li div {
+    float: left;
+}
+
+.input-style { 
+    border: 0;
+    color: #fff;
+    text-align: center;
+    outline:none; 
+    width: 40%;
+    height: 32px;
+    border: 1px solid #09A5C2;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.1);
+}
+
+.login-tip {
+    width: 40%;
+    left: 30%;
+    position: relative;
+}
+
+.forget-password {
+    float: right !important;
+}
+
+.button-style {
+    border: 0;
+    text-align: center;
+    outline:none; 
+    color: #0B353F;
+    letter-spacing: 4px;
+    width: 40%;
+    height: 32px;
+    background: #16DBE0;
+    margin-top: 19%;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/*版权信息*/
+.copyright {
+    width:100%;
+    position:fixed;
+    bottom: 20px;
+    right: 35px;
+    text-align: right;
+    color: #fff;
+    letter-spacing: 1px;
+}

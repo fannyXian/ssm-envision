@@ -1,0 +1,62 @@
+.datagrid-htable {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+}
+.data-grid-style {
+    width: 100%;
+    height: 100%;
+}
+.datagrid {
+    border-radius: 8px;
+    border:1px solid #65CBCD;
+}
+.datagrid-header-row,
+.datagrid-row {
+  height: 58px;
+}
+.datagrid-header-row,
+.datagrid-row th {
+  height: 58px;
+  color: #58fbff;
+  text-align: center;
+}
+.datagrid-header-row,
+.datagrid-row td {
+  text-align: center;
+}
+.datagrid-header-inner {
+    background: #11535c;
+}
+.datagrid .panel-body {
+    background: #11535c;
+}
+.datagrid-htable, .datagrid-btable, .datagrid-ftable {
+    color: #fff;
+}
+.datagrid .panel-body tr:nth-child(even) td  {
+    background: #10464f;
+}
+.datagrid .panel-body tr td:first-child {
+    color: #58fbff;
+}
+.datagrid-row-selected {
+    background: #11535c;
+    color: #58fbff;
+}
+.datagrid-row-over,
+.datagrid-header td.datagrid-header-over {
+    background: #11535c;
+    color: #58fbff;
+    cursor: default;
+}
+.datagrid-header td, .datagrid-body td, .datagrid-footer td {
+    border-width: 0 1px 0px 0;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.1);
+}
+.datagrid-header, .datagrid-toolbar, .datagrid-pager, .datagrid-footer-inner {
+    border-color: rgba(101,202,205,0.5);
+}
+.datagrid-htable, .datagrid-btable, .datagrid-ftable {
+    border-collapse: separate;
+}

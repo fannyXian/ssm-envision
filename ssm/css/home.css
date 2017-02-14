@@ -1,0 +1,178 @@
+/*首页样式*/
+/*基础样式*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+body {
+	margin: 0;
+    padding: 0;
+    font: 12px/1.5 Microsoft YaHei;
+    color: #666;
+    background:url(../images/homepage_bg.svg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+.wrap {
+
+}
+
+.wrap-left {
+    float: left;
+    background: #103740;
+    opacity: 1;
+    width: 200px;
+    height: 100%;
+    position:fixed;
+}
+
+.wrap-left-top {
+    height: 90px;
+    border-bottom:1px solid;
+    border-color:rgba(255,255,255,0.2);
+}
+
+.logo {
+    width: 120px;
+    margin: 20px 0 0 36px;
+}
+.subtitle {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+.wrap-right {  
+    width: calc(100% - 200px);
+    height: 100%;
+    position:fixed;
+    right: 0;
+}
+
+.wrap-right-top {
+    height: 90px;
+    background: rgba(255,255,255,0.1);
+}
+.current-user {
+    float: right;
+    line-height: 90px;
+    margin-right: 20px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.current-user .avatar {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.wrap-right-content {
+    background: rgba(237,240,245,0.02);
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.50);
+    border-radius: 8px;
+    width: 80%;
+    height: 78%;
+    position: fixed;
+    padding: 20px;
+    margin: 30px 0 0 25px;
+
+}
+
+/* ---------------------scrollbar css begin--------------------- */
+::-webkit-scrollbar {
+width: 6px;
+height:6px;
+}
+::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0);
+-webkit-border-radius: 8px;
+border-radius: 8px;
+}
+::-webkit-scrollbar-track-piece {
+background: rgba(36, 36, 36, 0);
+}
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 8px;
+border-radius: 8px;
+background: #478090;
+-webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+background: #478090;
+}
+::-webkit-scrollbar-corner {
+background:rgba(36, 36, 36, 0.1);
+}
+html {
+    scrollbar-arrow-color: #fff;
+    scrollbar-base-color: #121212;
+    scrollbar-darkshadow-color: #0a0a0a;
+    scrollbar-3dlight-color: #121212;
+    scrollbar-highlight-color: #2c2c2c;
+    scrollbar-shadow-color: #121212;
+    scrollbar-track-color: #242424;
+}
+/* ---------------------scrollbar css end----------------------- */
+
+/*自定义*/
+.title-setting {
+    padding: 10px 0 10px 0;
+    line-height: 28px;
+    background: #0F272D;
+    color:#fff;
+    text-align: center;
+}
+
+.title-setting ul li {
+    font-weight: 100;
+    letter-spacing: 1px;
+    list-style-position: inside;
+    list-style-type: circle;
+    color: #A9B9BE;
+    cursor: pointer;
+}
+/*左侧菜单高亮*/
+.high {
+    list-style-type:inherit !important;
+    color: #58FBFF !important;
+}
+/*右侧内容顶部容器*/
+.right-content-top {
+    margin-bottom: 10px;
+    height: 40px;
+}
+/*分割按钮SplitButton*/
+.split-button-wrap {
+    float: left;
+    clear: both;
+}
+/*搜索框*/
+.search-wrap {
+    background: url(../images/search.png) no-repeat 124px 2px;
+    width: 140px;
+    height: 22px;
+    border-bottom: 1px solid #58FBFF;
+    float: right;
+}
+.search {
+    background: rgba(0,0,0,0);
+    border:0;
+    outline: none;
+    width: 120px;
+    height: 22px;
+    color: #fff;
+}
+
+

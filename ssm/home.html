@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homepage</title>
+    <link rel="stylesheet" type="text/css" href="css/easyui.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/accordion.css">
+    <link rel="stylesheet" type="text/css" href="css/icon.css">
+    <link rel="stylesheet" type="text/css" href="css/dataGrid.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="wrap-left">
+            <div class="wrap-left-top">
+                <img class="logo" src="images/logo.png">
+                <div class="subtitle">KBSE开发平台</div>
+            </div>
+            <div class="easyui-accordion" id="homeAccordion">
+                <div title="首页" class="title-setting">
+                    <ul>
+                        <li>资源管理</li>
+                        <li>角色管理</li>
+                        <li>机构管理</li>
+                        <li>岗位管理</li>
+                    </ul>
+                </div>
+                <div title="任务管理" class="title-setting">
+                    <ul>
+                        <li>任务管理</li>
+                        <li>任务管理</li>
+                        <li>任务管理</li>
+                        <li>任务管理</li>
+                    </ul>
+                </div>
+                <div title="新闻中心" class="title-setting">
+                    <ul>
+                        <li>新闻中心</li>
+                        <li>新闻中心</li>
+                        <li>新闻中心</li>
+                        <li>新闻中心</li>
+                    </ul>
+                </div>
+                <div title="活动发布" class="title-setting">
+                    <ul>
+                        <li>活动发布</li>
+                        <li>活动发布</li>
+                        <li>活动发布</li>
+                        <li>活动发布</li>
+                    </ul>
+                </div>
+                <div title="员工管理" class="title-setting">
+                    <ul>
+                        <li>员工管理</li>
+                        <li>员工管理</li>
+                        <li>员工管理</li>
+                        <li>员工管理</li>
+                    </ul>
+                </div>
+                <div title="系统设置" class="title-setting">
+                    <ul>
+                        <li>系统设置</li>
+                        <li>系统设置</li>
+                        <li>系统设置</li>
+                        <li>系统设置</li>
+                    </ul>
+                </div>
+                <div title="绩效考核" class="title-setting">
+                    <ul>
+                        <li>绩效考核</li>
+                        <li>绩效考核</li>
+                        <li>绩效考核</li>
+                        <li>绩效考核</li>
+                    </ul>
+                </div>
+                <div title="VDR" class="title-setting">
+                    <ul>
+                        <li>VDR</li>
+                        <li>VDR</li>
+                        <li>VDR</li>
+                        <li>VDR</li>
+                    </ul>
+                </div>
+                <div title="HSSE" class="title-setting">
+                    <ul>
+                        <li>HSSE</li>
+                        <li>HSSE</li>
+                        <li>HSSE</li>
+                        <li>HSSE</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="wrap-right">
+            <div class="wrap-right-top">
+                <div class="current-user">陈柏霖<img class="avatar" src="images/Avatar.png"></div>
+            </div>
+            <div class="wrap-right-content">
+                    <!-- 右侧内容顶部容器 -->
+                    <div class="right-content-top">
+                        <!-- 分割按钮SplitButton -->
+                            <div class="split-button-wrap"></div>
+                        <!-- search -->
+                            <div class="search-wrap"><input type="text" class="search" name="search" placeholder="Please input value"></div>
+                    </div>
+                       
+                    <!-- dataGrid -->
+                    <table class="easyui-datagrid data-grid-style"  style="height: 500px;" 
+                            data-options="url:'datagrid_data1.json',method:'get', singleSelect:true" fitcolumns="true">
+                            <thead>
+                                <tr>
+                                    <th data-options="field:'itemid',width:80">Item ID</th>
+                                    <th data-options="field:'productid',width:100">Product</th>
+                                    <th data-options="field:'listprice',width:80">List Price</th>
+                                    <th data-options="field:'unitcost',width:80">Unit Cost</th>
+                                    <th data-options="field:'attr1',width:250">Attribute</th>
+                                    <th data-options="field:'status',width:60">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                </tr>
+                            </tbody>
+                    </table>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script/jquery.min.js"></script>
+    <script type="text/javascript" src="script/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="script/home.js"></script>
+    <script type="text/javascript" src="script/pagination.js"></script>
+</body>
+</html>

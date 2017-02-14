@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1920px" height="1080px" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="38.6140046%" fx="50%" fy="38.6140046%" r="76.3833224%" id="radialGradient-1">
+            <stop stop-color="#276771" offset="0%"></stop>
+            <stop stop-color="#0B212F" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="93.1477865%" y1="55.9027778%" x2="21.3883464%" y2="17.9774306%" id="linearGradient-2">
+            <stop stop-color="#08505A" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#055C68" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="39.8242188%" y1="82.3336227%" x2="9.66227214%" y2="-6.03587963%" id="linearGradient-3">
+            <stop stop-color="#08505A" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#08273C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage_3">
+            <g id="Group-4">
+                <rect id="Mask-Copy" fill="url(#radialGradient-1)" x="0" y="0" width="1920" height="1080"></rect>
+                <rect id="Mask-Copy" fill="url(#linearGradient-2)" x="0" y="0" width="1920" height="1080"></rect>
+                <rect id="Mask-Copy" fill="url(#linearGradient-3)" transform="translate(960.000000, 540.000000) scale(-1, -1) translate(-960.000000, -540.000000) " x="0" y="0" width="1920" height="1080"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
